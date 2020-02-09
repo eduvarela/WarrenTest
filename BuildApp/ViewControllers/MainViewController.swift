@@ -10,6 +10,5 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = .gray
         navigationItem.title = "Tela Principal"
-        navigationController?.navigationBar.isTranslucent = false
     }
 }

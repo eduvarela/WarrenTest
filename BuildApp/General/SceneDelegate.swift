@@ -9,10 +9,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         
-        let mainViewController = MainViewController()
+        let loginViewController = LoginViewController()
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = UINavigationController.init(rootViewController: mainViewController)
+            let navigationController = UINavigationController(rootViewController: loginViewController)
+            navigationController.navigationBar.isTranslucent = false
+            window.rootViewController = navigationController
             self.window = window
             window.makeKeyAndVisible()
         }
