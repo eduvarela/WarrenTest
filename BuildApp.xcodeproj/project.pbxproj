@@ -22,6 +22,7 @@
 		BF73F56E23DFBA930019B708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF73F56C23DFBA930019B708 /* LaunchScreen.storyboard */; };
 		BF73F57623DFBAF80019B708 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF73F57523DFBAF80019B708 /* MainViewController.swift */; };
 		BFAF5BB623F0938B0060611E /* ObjetivoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF5BB523F0938B0060611E /* ObjetivoTableViewCell.swift */; };
+		BFAF5BBA23F0B13D0060611E /* ObjetivoDetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF5BB923F0B13D0060611E /* ObjetivoDetalhesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		BF73F56F23DFBA930019B708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF73F57523DFBAF80019B708 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BFAF5BB523F0938B0060611E /* ObjetivoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjetivoTableViewCell.swift; sourceTree = "<group>"; };
+		BFAF5BB923F0B13D0060611E /* ObjetivoDetalhesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjetivoDetalhesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			children = (
 				BF73F57523DFBAF80019B708 /* MainViewController.swift */,
 				BF4D901A23E777E000AD262C /* LoginViewController.swift */,
+				BFAF5BB923F0B13D0060611E /* ObjetivoDetalhesViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFAF5BBA23F0B13D0060611E /* ObjetivoDetalhesViewController.swift in Sources */,
 				BF6F31C723E7699700BE4323 /* Application.swift in Sources */,
 				BF73F57623DFBAF80019B708 /* MainViewController.swift in Sources */,
 				BF6F31C323E75C5900BE4323 /* LoginData.swift in Sources */,

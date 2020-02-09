@@ -3,7 +3,6 @@
 //  BuildApp
 //
 import UIKit
-
 class MainViewController: UIViewController {
     let tableView: UITableView = UITableView()
     let loadingView: UIView = UIView()
@@ -69,7 +68,9 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-      
+      let objetivoDetalhes = ObjetivoDetalhesViewController()
+        objetivoDetalhes.objetivoIndex = indexPath.row
+      self.navigationController?.pushViewController(objetivoDetalhes, animated: true)
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
