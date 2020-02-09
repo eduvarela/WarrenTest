@@ -21,6 +21,7 @@
 		BF73F56823DFBA930019B708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF73F56723DFBA930019B708 /* Assets.xcassets */; };
 		BF73F56E23DFBA930019B708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF73F56C23DFBA930019B708 /* LaunchScreen.storyboard */; };
 		BF73F57623DFBAF80019B708 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF73F57523DFBAF80019B708 /* MainViewController.swift */; };
+		BFAF5BB623F0938B0060611E /* ObjetivoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF5BB523F0938B0060611E /* ObjetivoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		BF73F56D23DFBA930019B708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF73F56F23DFBA930019B708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF73F57523DFBAF80019B708 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BFAF5BB523F0938B0060611E /* ObjetivoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjetivoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,8 +129,17 @@
 				BF6F31C523E764ED00BE4323 /* General */,
 				BF6F31CF23E7702F00BE4323 /* Managers */,
 				BF6F31C423E764DF00BE4323 /* ViewControllers */,
+				BFAF5BB423F093670060611E /* Views */,
 			);
 			path = BuildApp;
+			sourceTree = "<group>";
+		};
+		BFAF5BB423F093670060611E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BFAF5BB523F0938B0060611E /* ObjetivoTableViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +218,7 @@
 				BF6F31CC23E76E5100BE4323 /* DataManager.swift in Sources */,
 				BF4D901F23E78D4A00AD262C /* PortifoliosData.swift in Sources */,
 				BF73F56223DFBA930019B708 /* AppDelegate.swift in Sources */,
+				BFAF5BB623F0938B0060611E /* ObjetivoTableViewCell.swift in Sources */,
 				BF73F56423DFBA930019B708 /* SceneDelegate.swift in Sources */,
 				BF4D901D23E77B0D00AD262C /* NotificationExtension.swift in Sources */,
 				BF6F31C123E75B7000BE4323 /* ServiceManager.swift in Sources */,
